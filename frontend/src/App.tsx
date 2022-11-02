@@ -3,7 +3,9 @@ import {UserComponent} from "./user/UserComponent";
 
 function App() {
     return (
-        <UserComponent/>
+        <div className={"container"}>
+            <UserComponent/>
+        </div>
     );
 }
 
