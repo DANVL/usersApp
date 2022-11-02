@@ -1,6 +1,6 @@
 import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from "reactstrap";
 import {useState} from "react";
-import {IconBin, IconEdit, IconMenu} from "../utils/icons";
+import {IconBin, IconEdit, IconMenu} from "../icons/Icons";
 
 interface OwnProps {
     onDelete: () => void;

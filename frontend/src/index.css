@@ -35,16 +35,16 @@ tr td, tr th {
   vertical-align: middle;
 }
 
-.no-users {
+.EmptyUsers {
   text-align: center;
 }
 
-.user-info {
+.UserInfo {
   display: flex;
   align-items: center;
 }
 
-.user-info__img img {
+.UserInfo__image {
   margin-right: 15px;
   height: 55px;
   width: 55px;

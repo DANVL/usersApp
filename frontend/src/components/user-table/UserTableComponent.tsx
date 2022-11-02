@@ -1,7 +1,7 @@
 import {User} from "../user/User";
 import {UserTableRowsComponent} from "./UserTableRowsComponent";
 import {UserTableHeaderComponent} from "./UserTableHeaderComponent";
-import {userColumnKeys} from "./UserColumnKey";
+import {userColumnKeys} from "./UserTableColumnKey";
 
 interface OwnProps {
     users: User[];
@@ -19,7 +19,7 @@ export const UserTableComponent = (props: OwnProps) => {
                     : (
                         <tbody>
                             <tr>
-                                <td colSpan={userColumnKeys.length} className={"no-users"}>No users found</td>
+                                <td colSpan={userColumnKeys.length} className={"EmptyUsers"}>No users found</td>
                             </tr>
                         </tbody>
                     )

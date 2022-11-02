@@ -1,5 +1,5 @@
 import React from 'react';
-import {UserComponent} from "./user/UserComponent";
+import {UserComponent} from "./components/user/UserComponent";
 
 function App() {
     return (

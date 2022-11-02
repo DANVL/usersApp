@@ -1,20 +1,20 @@
-import {UserColumnKey, userColumnKeys} from "./UserColumnKey";
+import {UserTableColumnKey, userColumnKeys} from "./UserTableColumnKey";
 
 export const UserTableHeaderComponent = () => {
 
-    const renderHeaderCell = (key: UserColumnKey) => {
+    const renderHeaderCell = (key: UserTableColumnKey) => {
         switch (key) {
-            case UserColumnKey.actions:
+            case UserTableColumnKey.actions:
                 return "Actions";
-            case UserColumnKey.contact:
+            case UserTableColumnKey.contact:
                 return "Contact";
-            case UserColumnKey.location:
+            case UserTableColumnKey.location:
                 return "Location"
-            case UserColumnKey.phone:
+            case UserTableColumnKey.phone:
                 return "Phone"
-            case UserColumnKey.status:
+            case UserTableColumnKey.status:
                 return "Status";
-            case UserColumnKey.user:
+            case UserTableColumnKey.user:
                 return "User";
             default:
                 return undefined;
